@@ -10,7 +10,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'logo.svg',
+  favicon: 'logo.png',
 
   organizationName: 'tansongchen',
   projectName: 'ding',
@@ -39,8 +39,8 @@ const config = {
       /** @type {import('docusaurus-plugin-pwa-generator').Options} */
       ({
         generatorInput: {
-          source: 'static/logo.svg',
-          options: { log: false }
+          source: 'static/logo.png',
+          options: { log: false, padding: '0' }
         },
         partialManifest: {
           "name": name,
