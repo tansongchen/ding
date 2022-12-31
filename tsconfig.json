@@ -4,6 +4,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "target": "ESNext",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "strict": true
   }
 }

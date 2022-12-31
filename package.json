@@ -33,6 +33,8 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.2.0",
     "@tsconfig/docusaurus": "^1.0.5",
+    "eslint": "^8.30.0",
+    "eslint-config-react-app": "^7.0.1",
     "typescript": "^4.7.4"
   },
   "browserslist": {

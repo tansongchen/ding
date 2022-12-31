@@ -72,7 +72,7 @@ const config = {
         title: '顶功 · 集萃',
         logo: {
           alt: '顶功 · 集萃',
-          src: 'logo.svg',
+          src: 'logo.png',
         },
         items: [
           ...[['教程', 'tutorial'], ['理论', 'theory']].map(([ label, sidebarId ]) => ({ type: 'docSidebar', position: 'left', label, sidebarId })),
