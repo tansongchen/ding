@@ -33,6 +33,6 @@ import Quickstart from '../src/components/Quickstart.tsx';
 
 ## 开源协议
 
-本文档遵循 [GPLv3 协议](LICENSE)。
+本文档遵循 [GPLv3 协议](https://github.com/tansongchen/ding/blob/main/LICENSE)。
 
 Copyright&copy; 2020-present, 谭淞宸 & Yb
