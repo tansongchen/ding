@@ -1,11 +1,49 @@
-// @ts-check
-
-import { Config } from "@docusaurus/types";
+import { Config, ThemeConfig } from "@docusaurus/types";
+import {  } from "@docusaurus/plugin-content-docs";
 import { themes } from "prism-react-renderer";
 const lightTheme = themes.github;
 const darkTheme = themes.dracula;
 
 const name = "顶功 · 集萃";
+
+const themeConfig: ThemeConfig = {
+  navbar: {
+    title: "顶功 · 集萃",
+    logo: {
+      alt: "顶功 · 集萃",
+      src: "logo.png",
+    },
+    items: [
+      ...[
+        ["教程", "tutorial"],
+        ["理论", "theory"],
+      ].map(([label, sidebarId]) => ({
+        type: "docSidebar",
+        position: "left",
+        label,
+        sidebarId,
+      })),
+      {
+        position: "left",
+        label: "验证",
+        href: "/verifier",
+      },
+      {
+        href: "https://github.com/tansongchen/ding",
+        label: "GitHub",
+        position: "right",
+      },
+    ],
+  },
+  footer: {
+    style: "dark",
+    copyright: `Copyright © 2016 - ${new Date().getFullYear()} 蓝落萧, Yb.`,
+  },
+  prism: {
+    theme: lightTheme,
+    darkTheme: darkTheme,
+  },
+};
 
 const config: Config = {
   title: name,
@@ -66,40 +104,7 @@ const config: Config = {
     ],
   ],
 
-  themeConfig:
-    {
-      navbar: {
-        title: "顶功 · 集萃",
-        logo: {
-          alt: "顶功 · 集萃",
-          src: "logo.png",
-        },
-        items: [
-          ...[
-            ["教程", "tutorial"],
-            ["理论", "theory"],
-          ].map(([label, sidebarId]) => ({
-            type: "docSidebar",
-            position: "left",
-            label,
-            sidebarId,
-          })),
-          {
-            href: "https://github.com/tansongchen/ding",
-            label: "GitHub",
-            position: "right",
-          },
-        ],
-      },
-      footer: {
-        style: "dark",
-        copyright: `Copyright © 2016 - ${new Date().getFullYear()} 蓝落萧, Yb.`,
-      },
-      prism: {
-        theme: lightTheme,
-        darkTheme: darkTheme,
-      },
-    },
+  themeConfig,
 
   stylesheets: [
     {
