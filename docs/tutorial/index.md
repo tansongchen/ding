@@ -15,7 +15,7 @@ sidebar_position: 0
 读完本书，你可能会想做一个属于自己的顶功方案，很棒！本书的第三部分讲解了制作新方案的方向以及方法。待你成功之日，与我们分享吧！
 
 [^1]: Rime，中州韻輸入法引擎。作者：佛振@式恕堂。 [Rime 官网](https://rime.im/)。
-[^2]: Yong，小小输入法。作者：ddog。 [小小输入法网盘](http://yongim.ys168.com/)。
+[^2]: Yong，小小输入法。作者：dgod。 [小小输入法论坛](https://yong.dgod.net) [小小输入法网盘](http://yongim.ys168.com/) 
 [^3]: 多多中文输入法平台。作者：sys（多多论坛名称）。 [多多中文官网](https://www.chinput.com/portal.php)
 
 ## 2020 版序
