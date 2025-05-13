@@ -37,7 +37,7 @@ const themeConfig: ThemeConfig = {
   },
   footer: {
     style: "dark",
-    copyright: `Copyright © 2016 - ${new Date().getFullYear()} 蓝落萧, Yb.`,
+    copyright: `© 2016 - ${new Date().getFullYear()} 蓝落萧, Yb.`,
   },
   prism: {
     theme: lightTheme,

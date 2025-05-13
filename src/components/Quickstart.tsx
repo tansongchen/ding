@@ -18,7 +18,7 @@ export default function Quickstart() {
             color: "white",
           }}
         >
-          开始阅读
+          阅读教程
         </button>
       </Link>
     </div>
